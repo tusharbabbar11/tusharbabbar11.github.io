@@ -28,10 +28,10 @@ $secondary: #a0f669;
 }
 
 html {
-	// overflow-x: scroll;
-	// overflow-y: scroll;
-	// overflow: scroll;
-	// -webkit-overflow-scrolling: touch;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 body {
 	font-family: $font-primary;
@@ -41,7 +41,7 @@ body {
 	font-weight: 400;
 	color: lighten($black,60%);
 	&.menu-show {
-		overflow: hidden;
+		overflow: auto;
 		position: relative;
 		height: 100%;
 		width: 100%;
