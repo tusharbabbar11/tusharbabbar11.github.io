@@ -28,7 +28,8 @@ $secondary: #a0f669;
 }
 
 html {
-	// overflow-x: hidden;
+	overflow-x: scroll;
+	overflow-y: scroll;
 	overflow: scroll;
 	-webkit-overflow-scrolling: touch;
 }
